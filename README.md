@@ -68,12 +68,16 @@ Giải pháp:
 - Code convention
 
     > `String` vẫn còn bind thẳng ở viewcontroller
-    - Quy định `số lượng từ` nếu vượt quá thì cần phải bỏ vào localizable 
+    - Quy định `số lượng từ` nếu vượt quá thì cần phải bỏ vào localizable
+ 
+      
 
     > Có những cái Constant không nên dùng kiểu string để biểu diễn nó
 
     - ví dụ như: status của các module trong Subbie app: Docket Started,...
     - Cần định nghĩa ra `enum`: để dùng chung, đỡ bị gõ nhầm trong quá trình code string
+ 
+  
 
     > GenericType là một công cụ tốt để có thể xử lý nhiều kiểu dữ liệu nhất
 
